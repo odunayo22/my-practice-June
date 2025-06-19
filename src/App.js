@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+//import Turing from './Turing.js';
+//import Editor from './bairesAnalyser/baires1.js';
+import Header from './Components/Header.js';
+//import Other from './Components/Header/Other.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Turing /> 
+       <Editor />
+       <Other />*/}
+<Header />
+
     </div>
   );
 }
